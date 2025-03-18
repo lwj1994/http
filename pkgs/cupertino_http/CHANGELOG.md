@@ -1,6 +1,19 @@
-## 2.0.2-wip
+## 2.1.0
 
-* Upgrade to `package:objective_c` 4.0.
+* Remove some unnecessary native code.
+* Upgrade to `package:objective_c` 7.0.
+* Upgrade to `package:ffigen` 18.0.
+* Fix a [bug](https://github.com/dart-lang/http/issues/1702) where
+  `package:cupertino_http` did not work with `package:firebase_performance`
+  enabled.
+
+## 2.0.2
+
+* Upgrade to `package:objective_c` 4.1.
+* Upgrade to `package:ffigen` 16.1.
+* Fixes a bug where responses were not processed correctly:
+  * [#1413](https://github.com/dart-lang/http/issues/1413)
+  * [#1446](https://github.com/dart-lang/http/issues/1446)
 
 ## 2.0.1
 
